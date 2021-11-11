@@ -69,6 +69,7 @@ html{
     position: absolute;
     width: 100%;
     height: inherit;
+    object-fit: cover;
     left: 0px;
     top: 0px;
     background-image: url(bg-image.jpg);
@@ -114,7 +115,7 @@ html{
     position: relative;
     display: flex;
     justify-content: center;
-    padding-top: 1em;
+    padding-top: 2em;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -127,7 +128,7 @@ html{
     position: relative;
     display: flex;
     justify-content: center;
-    padding-top: 6em;
+    padding: 6em 2em 0;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: bold;
